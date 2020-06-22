@@ -16,7 +16,7 @@ namespace Hitung_Gaji_Karyawan
             kttp.Nama = "Andhika Br";
             kttp.GajiBulanan = 15000000;
 			
-			KaryawanHarian khrn = new KaryawanHarian();
+	    KaryawanHarian khrn = new KaryawanHarian();
             khrn.Nik = "1010";
             khrn.Nama = "Bagus Ramadhan";
             khrn.UpahPerJam = 120000;
@@ -31,7 +31,7 @@ namespace Hitung_Gaji_Karyawan
 			
             List<Karyawan> listkaryawan = new List<Karyawan>();
 
-			listkaryawan.Add(kttp);
+	    listkaryawan.Add(kttp);
             listkaryawan.Add(khrn);
             listkaryawan.Add(slss);
 
